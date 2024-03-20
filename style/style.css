@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Kaisei+Opti&family=Rampart+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap')*{
+    margin:0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;/* ie8 */
+    -moz-transition: all 3s ease-out;
+    -o-transition: all 3s ease-out;
+    -webkit-transition: all 3s ease-out;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+header {
+    float: left;
+    display: flex;
+    align-items: center;
+    background-color: #141111;
+    width: 100%
+    border-bottom: 5px solid #423d42;
+}
+header>div#LOGO>img {
+    float: left;
+    padding-right: 150px;
+    width: 100px;
+}
+
+header>div#About>a {
+    font-size: 2em;
+    padding-left: 15 px;
+    margin: 20px;
+    font-family: "Kaisei Opti", serif;
+    float: left;
+    text-align: center;
+    padding-right: 15px;
+}
+
+header>div#Concerts>a {
+    font-size: 1.5em;
+    margin: 15px;
+    font-family: "Kaisei Opti", serif;
+    float: right;
+    text-align: center;
+    padding-top: 35px;
+    padding-right: 10px;
+    
+}
+ 
+#About>a {
+    color: #783272;
+    text-decoration: none;
+    transition: all.6s ease;
+    -ms-transition: all.6s ease;
+    -o-transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -webkit-transition: all.6s ease;
+}
+
+#About>a:hover {
+    color: #d48ece ;
+    text-decoration: none;
+    transition: all.6s ease;
+    -ms-transition: all.6s ease;
+    -o-transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -webkit-transition: all.6s ease;
+    border-bottom: 2px solid #696168;
+}
+
+button {
+    float: right;
+    margin-right: 15px;
+    padding: 6px 8px;
+    border-radius: 15px;
+    background-color: #ada3ad;
+    font-size: 1.7em;
+    color: #783272;
+    font-family: "Kaisei Opti", serif;
+    cursor: pointer;
+    box-shadow: 2px 5px 5px;
+    margin-left: 170px ;
+    margin-top: 5px;
+
+}
+button:hover {
+    margin-top: 9px;
+}
+
+button:active {
+    margin-top: 11px;
+}
