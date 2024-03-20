@@ -1,2 +1,0 @@
-# egorkreed
-Egor Kreed
